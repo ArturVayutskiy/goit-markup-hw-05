@@ -816,6 +816,18 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    cursor: pointer;
+}
+.checkbox-icon {
+    opacity: 0;
+    transform: scale(0.3);
+    transition: opacity 300ms cubic-bezier(0.8, 0, 0, 1.8) 150ms,
+    transform 300ms cubic-bezier(0.8, 0, 0, 1.8) 150ms; 
+}
+
+.checkbox:checked + .checkbox-span > .checkbox-icon{
+    opacity: 1;
+    transform: scale(1);
 }
 
 .send-form-btn {
