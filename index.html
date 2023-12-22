@@ -444,18 +444,19 @@
     </footer>
 
     <!-- Modal window ДОБАВИТЬ  is-open--> 
-    <div class="backdrop is is-open">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-btn-close" type="button" aria-label="Modal close button">
-          <svg class="modal-button-icon" width="16" height="16">
-            <use href="/images/icons.svg#icon-close"></use>
+          <svg class="modal-button-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <p class="modal-caption">Leave your contacts and we will call you back
         </p>
+        <div class="form-field">
         <form class="modal-form form" name="modal"></form>
         <label class="modal-label" for="user_name">Name</label>
-        <div class="form-field">
+        <div class="modal-form-field">
           <input
             class="form-input"
             type="text"
@@ -465,6 +466,7 @@
           <svg class="form-icon" width="16" height="16">
             <use href="/images/icons.svg#icon-person"></use>
           </svg>
+        </div>
         </div>
         <form class="modal-form form" name="modal"></form>
         <label class="modal-label" for="phone">Phone</label>
