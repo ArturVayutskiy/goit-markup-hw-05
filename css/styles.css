@@ -552,7 +552,7 @@ img {
 
 /* Subscription */
 .footer-subscription {
-    padding-left: 80px;
+    padding-left: aut;
 }
 
 .wrapper-caption{
@@ -614,7 +614,8 @@ img {
     border-radius: 4px;
 }
 
-.subscribe-form-btn:hover {
+.subscribe-form-btn:hover,
+.subscribe-form-btn:focus {
     background-color: #404BBF;
 }
 
@@ -901,6 +902,10 @@ img {
     background-color: #404bbf; 
     border: none; 
     fill: #F4F4FD;
+}
+
+.checkbox:focus + .checkbox-label > .checkbox-span {
+    border-color: #4D5AE5;
 }
 
 
